@@ -1,3 +1,15 @@
+-> Configura o pc com nome e E-mail do responsável pelo código
+git config --global user.nome "Matheus Augusto Paschuinio"
+git config --global email.user matheus.paschuinio@fatec.sp.gov.br
+
+-> navegando no cmd
+cd nome-da-pasta //entra em uma pasta
+cd .. //volta uma pasta
+cd / //vai para a raiz
+
+->baixa a atualização dos arquivos do GitHub para uma pasta já existente
+git pull
+
 -> Inicializa um repositório git (utilizado apenas 1 vez)
 git init
 
@@ -10,7 +22,7 @@ git add .
 -> Salva uma versão dos arquivos 
 git commit -m "Por que estou salvando???"
 
--> Envia irformação para o github
+-> Envia irformação para o github *
 git push
 
 -> Baixa a atualização dos arquivos do GitHub para uma pasta já existente
